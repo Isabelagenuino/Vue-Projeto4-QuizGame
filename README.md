@@ -1,5 +1,29 @@
-# Vue 3 + Vite
+**Descrição:** Aplicativo de perguntas e respostas com integração à Open Trivia API. O usuário responde perguntas de múltipla escolha e recebe feedback imediato.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+**Funcionalidades:**
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+-Carregamento dinâmico de perguntas via API
+
+-Alternância entre opções de resposta
+
+-Feedback visual para respostas corretas/incorretas
+
+-Placar de acertos e erros
+
+-Botão para carregar nova pergunta
+
+**Tecnologias utilizadas:**
+
+-Vue 3 
+
+-Composition API (ref, computed, onMounted)
+
+-Axios para requisições HTTP
+
+-Componentes: ScoreBoard, App
+
+-Estilização com SCSS
+
+**Prview**:
+
+Página inicial:
